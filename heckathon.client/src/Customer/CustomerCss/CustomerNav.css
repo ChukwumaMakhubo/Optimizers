@@ -1,0 +1,39 @@
+.customer-nav {
+    position:sticky;
+    left:0;
+    right:0;
+    top:0;
+    z-index:2;
+    background-color: #334155;
+    display:flex;
+    color:white;
+    list-style:none;
+    justify-content:space-between;
+    padding:0 3rem 0 12rem;
+}
+
+.last
+{
+    margin-left:auto;
+}
+
+.customer-nav li
+{
+    padding:13px;
+    margin-right:1rem;
+}
+
+.customer-nav-icon
+{
+    text-align:center;
+}
+
+.customer-nav-icon > i 
+{
+    font-size:1.5rem;
+}
+
+.customer-nav-text
+{
+    font-size:1.1rem;
+}

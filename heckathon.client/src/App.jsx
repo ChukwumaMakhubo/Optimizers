@@ -1,16 +1,18 @@
-import { BrowserRouter as Router } from 'react-router-dom';
-import RoutesComponent from './routes';
-import CustomerRoutes from '../src/Customer/CustomerRoutes'
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from './/Landing/Landing' 
+import CustomerRoutes from "./Customer/CustomerRoutes";
 function App() {
     
     return (
-        <Router>
-            <Route path="/" element={<LandingPage />} />
-            <Route path="/customer" element={<Login />} />
-            <Route path="/Mechanic" element={<Register />} />
-            <Route path="/Supplier" element={<Register />} />
-        </Router>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" element={<Landing />} />
+                <Route path="/Customer" element={<CustomerRoutes />} />
+                {/*<Route path="/Mechanic" element={<Register />} />*/}
+                {/*<Route path="/Supplier" element={<Register />} />*/}
+            </Routes>
+        </BrowserRouter>
+       
     );
 }
 

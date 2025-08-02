@@ -1,4 +1,4 @@
-import '../ComponentsStyle/ServiceCardStyle.css';
+import '../LandingCss/ServiceCardStyle.css';
 
 function ServicesCard({ text, paragraph }) {
     return (

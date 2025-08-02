@@ -1,5 +1,5 @@
 import React from 'react';
-import ServicesCard from '../components/ServicesCard'; 
+import ServicesCard from '../Landing/Components/ServicesCard'; 
 import './LandingCss/Landing.css'
 import LandingImage from '../assets/LandingPic.jpg'; 
 function Navbar() {
